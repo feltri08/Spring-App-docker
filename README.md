@@ -3,12 +3,16 @@
 
 # Correr la app #
 
-Para correr la app se hace un  docker build -t nombreimagen:V1 .
+Para correr la app se hace un:  
+
+docker build -t nombreimagen:V1 .
 
 
 ## Comandos ##
 
 Consultar usuario -- GET : http://localhost:18082/demo/all
+
+
 Agregar usuarios -- POST : http://localhost:18082/demo/add
 
 ejemplo del JSON para agregar usuario
